@@ -6,7 +6,7 @@ p.PAUSE = 1
 class Inicializador():
     def __init__(self):
         self.conta = str(input('Login: '))
-        self.senha = 'Robotomono123!'
+        self.senha = str(input("Senha: "))
 
     def abre_chrome(self):
         p.click(26, 753)
